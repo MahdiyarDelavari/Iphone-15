@@ -1,12 +1,48 @@
-# React + Vite
+# Apple iPhone 15 Pro Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, animated landing page for the iPhone 15 Pro, built with React, Vite, and Tailwind CSS. This project features smooth animations, 3D model integration, and a beautiful Apple-inspired UI.
 
-Currently, two official plugins are available:
+## Features
+- ⚡️ Built with React + Vite for fast development
+- 🎨 Styled with Tailwind CSS
+- 🎬 GSAP animations for smooth transitions
+- 📱 Responsive and mobile-friendly
+- 🖼️ 3D model and video integration
+- 🧩 Modular component structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+3. **Open your browser:**
+   Visit [http://localhost:5173](http://localhost:5173) to view the app.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+```
+src/
+  components/      # React components (Hero, Highlights, HowItWorks, Footer, etc.)
+  constants/       # Static data and config
+  utils/           # Utility functions and animation helpers
+  App.jsx          # Main app component
+  main.jsx         # Entry point
+public/
+  assets/          # Images, videos, and 3D models
+```
+
+## Customization
+- Update images, videos, and 3D models in `public/assets`.
+- Edit text and content in the respective components in `src/components`.
+
+## Credits
+- Inspired by Apple.com
+- Built with [React](https://react.dev/), [Vite](https://vitejs.dev/), [Tailwind CSS](https://tailwindcss.com/), and [GSAP](https://gsap.com/)
+
+---
+
+© {new Date().getFullYear()} Apple Landing Page. For educational/demo purposes only.
